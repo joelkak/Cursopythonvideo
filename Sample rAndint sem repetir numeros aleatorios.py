@@ -1,6 +1,6 @@
 from random import sample
 
-main_numbers = sample(range(25), 15)
+main_numbers = sample(range(15, 25), 7)
 
 print(main_numbers)
 #[0, 23, 6, 12, 24, 20, 11, 3, 4, 16, 18, 1, 15, 17, 8]
