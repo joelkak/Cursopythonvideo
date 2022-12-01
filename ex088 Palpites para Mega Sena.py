@@ -10,11 +10,11 @@ tot = 1
 while tot <= quant:
     cont = 0
     while True:
-        num = randint(1, 60)
+        num = randint(1, 80)
         if num not in lista:
             lista.append(num)
             cont += 1
-        if cont >= 6:
+        if cont >= 5:
             break
     lista.sort()
     jogos.append(lista[:])
